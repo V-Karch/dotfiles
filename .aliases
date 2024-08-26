@@ -1,0 +1,17 @@
+# Git
+alias gs="git status"
+alias gal="git add ."
+
+# Adding Colors
+alias ip="ip -c"
+alias tree="tree -C"
+alias yay='yay --color=auto'
+alias pacman='pacman --color=auto'
+alias grep='grep --color=auto'
+
+# General Shortcuts
+alias ff='fastfetch'
+
+alias ls='eza --color=auto --icons=always'
+alias la='eza --color=auto -lah --icons=always --group-directories-first'
+alias ll='eza --color=auto -l --icons=always'
