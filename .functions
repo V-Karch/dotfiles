@@ -1,0 +1,24 @@
+# Helpful Bash Functions
+
+function java8 {
+    sudo archlinux-java set java-8-openjdk
+    java --version
+}
+
+function java17 {
+    sudo archlinux-java set java-17-openjdk
+    java --version
+}
+
+function java23 {
+    sudo archlinux-java set java-23-openjdk
+    java --version
+}
+
+function java_versions {
+    archlinux-java status
+}
+
+function fancygitlog {
+    git log --graph --decorate --oneline
+}
